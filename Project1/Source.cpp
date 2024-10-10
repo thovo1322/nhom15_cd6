@@ -24,6 +24,9 @@ typedef Node* NodePtr;
 void init(NodePtr& t) {
 	t = NULL;
 }
+void hi() {
+	cout << "hello world";
+}
 
 NodePtr makeNode(NhanVien t) {
 	NodePtr p = new Node();
