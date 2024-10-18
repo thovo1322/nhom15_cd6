@@ -118,6 +118,11 @@ void xuat() {
 	cout << "Ca" << setw(10) << "ID" << setw(20) << "Ten nhan vien" << setw(15) << "Gioi tinh" << setw(10) << "Tuoi" << endl;
 }
 
+void mayBeIm ()
+{
+	cout << " Xin Chao lap Trinh ";
+}
+
 void hienGioiTinh(NhanVien nv) {
 	switch (nv.gioitinh) {
 	case 1:
